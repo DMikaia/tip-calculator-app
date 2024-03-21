@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Demo-link](https://your-live-site-url.com)
+- Live Site URL: [Demo-link](https://dm-tip-calculator.netlify.app/)
 
 ## My process
 
@@ -63,4 +63,4 @@ let calculateTip = () => {
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/DMikaia)
+- Frontend Mentor - [@DMikaia](https://www.frontendmentor.io/profile/DMikaia)
