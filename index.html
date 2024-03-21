@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <img src="images/logo.svg" alt="spliter logo" id="spliter-logo" />
+
+    <section class="container">
+      <section class="form">
+        <section class="bill-box">
+          <p class="sub-title">Bill</p>
+          <span class="error-txt" id="error-bill"
+            >Insert only valid number</span
+          >
+          <div id="bill-input-box">
+            <div id="money-box">
+              <img src="images/icon-dollar.svg" id="dollar-logo" />
+            </div>
+            <input type="number" id="bill" />
+          </div>
+        </section>
+
+        <section class="tip-container">
+          <p class="sub-title">Select Tip %</p>
+          <section class="tip-grid">
+            <div class="tip-box"><span>5</span><span>%</span></div>
+            <div class="tip-box"><span>10</span><span>%</span></div>
+            <div class="tip-box"><span>15</span><span>%</span></div>
+            <div class="tip-box"><span>25</span><span>%</span></div>
+            <div class="tip-box"><span>50</span><span>%</span></div>
+            <input type="number" class="tip-input" placeholder="Custom" />
+          </section>
+        </section>
+
+        <section class="people">
+          <p class="sub-title">Number of People</p>
+          <span class="error-txt" id="error-person">Can't be zero</span>
+          <div id="number-person-box">
+            <div id="person-box">
+              <img src="images/icon-person.svg" id="person-logo" />
+            </div>
+            <input type="number" id="number-person" />
+          </div>
+        </section>
+      </section>
+
+      <section class="tip-result">
+        <section class="tip-result-container">
+          <section class="tip-result-box">
+            <div class="result-txt">
+              <p class="result-title">Tip Amount</p>
+              <p class="result-per">/ person</p>
+            </div>
+            <p id="tip-per-person" class="tip-value">$0.00</p>
+          </section>
+
+          <section class="tip-result-box">
+            <div class="result-txt">
+              <p class="result-title">Total</p>
+              <p class="result-per">/ person</p>
+            </div>
+            <p id="tip-total" class="tip-value">$0.00</p>
+          </section>
+        </section>
+
+        <button>Reset</button>
+      </section>
+    </section>
+
+    <script src="script/active-tip.js"></script>
+    <script src="script/app.js"></script>
+  </body>
+</html>
